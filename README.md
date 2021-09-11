@@ -17,6 +17,6 @@ mv glove.6B.200d.txt.w2v model
 Get the result
 ```
 >>> from tool import search, beautiful_print
->>> h = search("PUT_YOUR_QUERY_HERE")
->>> beautiful_print(h)
+>>> res = search("PUT_YOUR_QUERY_HERE")
+>>> beautiful_print(res)
 ```

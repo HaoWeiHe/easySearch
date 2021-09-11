@@ -1,10 +1,8 @@
 # easySearch
 ## Prepare your data
- ```
-mkdir data
- ```
-put your files in data the folder
-## Preparing Dependencies
+Put your files in `data` the folder
+
+## Prepare Dependencies
 - conda env create -f freeze.yml
 - download pre-trained word2vec model 
  ```

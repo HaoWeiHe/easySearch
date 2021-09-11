@@ -1,4 +1,6 @@
 # easySearch
+This project aim to help you to find out the similary query under your folder. (Noticed that If this kind of action happpend frequently and the corpus isn't motified that much, highly recommend to search for a search engine, eg. Elasticsearch)
+
 ## Prepare your data
 Put your files in `data` the folder
 

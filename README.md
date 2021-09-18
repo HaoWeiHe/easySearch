@@ -1,5 +1,5 @@
 # easySearch
-This project aim to help you to find out the similary query under your folder. (Noticed that if this kind of action happpend frequently and the corpus isn't motified that much, highly recommend to search for a search engine, eg. Elasticsearch)
+This project aims to help you to find out the similarity query under your folder. (Noticed that if this kind of action happened frequently and the corpus isn't modified that much, highly recommend searching for a search engine, eg. Elasticsearch)
 
 ## Prepare Your Data
 Put your files in `data` the folder
@@ -19,4 +19,11 @@ Get the result
 >>> from tool import search, beautiful_print
 >>> res = search("PUT_YOUR_QUERY_HERE")
 >>> beautiful_print(res)
+```
+
+The result will come with two types of information- file name and its score.
+It may look as follows 
+```
+data/apple.txt: score:0.571
+data/amz.txt: score:0.366
 ```

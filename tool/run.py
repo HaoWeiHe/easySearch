@@ -43,7 +43,7 @@ class earsySearch():
 						if score > hi_score:
 							hi_score = score
 							rtr_w = w
-				heappush(h,(hi_score,filename))
+				heappush(h,(-hi_score,filename))
 				if len(h) > self._num:
 					heappop(h)
 		return h
@@ -53,4 +53,4 @@ class earsySearch():
 			data = heappop(h)
 			if data == "OOV":
 				print("sorry, the input query doesn't exist in our dictionary")
-			print("{}:\tscore:{:0.3f}".format(data[1],data[0]))
+			print("{}:\tscore:{:0.3f}".format(data[1],-data[0]))

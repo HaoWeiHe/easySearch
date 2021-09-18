@@ -24,6 +24,7 @@ Get the result
 The result will come with two types of information- file name and its score.
 It may look as follows 
 ```
+#res = search("iphone")
 data/apple.txt: score:0.571
 data/amz.txt: score:0.366
 ```
